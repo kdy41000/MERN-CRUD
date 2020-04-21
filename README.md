@@ -1,3 +1,44 @@
+## MERN(Mongo Express React Node)
+프론트엔드는 React의 클래스형 컴포넌트를 사용하였으며, 서버는 Node Express, DB는 MongoDB를 사용하여 CRUD Board를 구현하였습니다.
+
+컴포넌트 스타일링은 material-ui를 사용하였고 Router로 홈화면, 게시판 리스트, 글쓰기, 수정 페이지로 이동 할 수 있도록 구현하였습니다.
+
+
+Clone후 실행이 되지 않는 경우
+
+NodeJS download
+
+yarn download
+
+MongoDB download
+
+
+
+$ yarn add react-router-dom
+
+$ npm install express body-parser cors mongoose
+
+$ npm install -g nodemon
+
+$ yarn add axios
+
+$ yarn add @material-ui/core
+
+
+
+위의 라이브러리를 install합니다.
+
+그리고 클라이언트서버, 백엔드서버, MongoDB를 start합니다.
+
+$ yarn start
+
+$ nodemon server.js
+
+$ mongo
+
+$ use todos
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
