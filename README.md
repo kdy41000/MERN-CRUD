@@ -1,7 +1,7 @@
 ## MERN(Mongo Express React Node)
-프론트엔드는 React의 클래스형 컴포넌트를 사용하였으며, 서버는 Node Express, DB는 MongoDB를 사용하여 CRUD Board를 구현하였습니다.
+프론트엔드는 React의 클래스형 컴포넌트를 사용하였으며, 서버는 NodeJS용 Framework인 ExpressJS, DB는 MongoDB를 사용하여 Todo-List를 구현하였습니다.
 
-컴포넌트 스타일링은 material-ui를 사용하였고 Router로 홈화면, 게시판 리스트, 글쓰기, 수정 페이지로 이동 할 수 있도록 구현하였습니다.
+컴포넌트 스타일링은 material-ui를 사용하였고 Router로 홈화면, Todo-List, Write New Todo, Edit Todo 페이지로 이동 할 수 있도록 구현하였습니다.
 
 
 Clone후 실행이 되지 않는 경우
