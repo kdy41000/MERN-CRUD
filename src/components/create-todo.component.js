@@ -73,17 +73,17 @@ export default class CreateTodo extends Component {
     render() {
         return (
             <div style={{marginTop: 10,textAlign:"center"}}>
-                <h3>Create New Todo</h3>
-                <FormControl onSubmit={this.onSubmit}>
+                <h3>Write New Todo</h3>
+                <FormControl onSubmit={this.onSubmit} style={{width:"512px"}}>
                
-                        <label>Description: </label>
+                        <label>제목: </label>
                         <Input  type="text"
                                 className="form-control"
                                 value={this.state.todo_description}
                                 onChange={this.onChangeTodoDescription}
                                 /><br/><br/><br/>
                
-                        <label>Responsible: </label>
+                        <label>작성자: </label>
                         <Input 
                                 type="text" 
                                 className="form-control"
@@ -91,35 +91,35 @@ export default class CreateTodo extends Component {
                                 onChange={this.onChangeTodoResponsible}
                                 /><br/><br/><br/>
             
-                        <label className="form-check-label">Low</label>
+                        <label className="form-check-label">Java</label>
                             <Checkbox  className="form-check-input" 
                                     type="radio" 
                                     name="priorityOptions" 
                                     id="priorityLow" 
-                                    value="Low"
-                                    checked={this.state.todo_priority==='Low'} 
+                                    value="Java"
+                                    checked={this.state.todo_priority==='Java'} 
                                     onChange={this.onChangeTodoPriority}
                                     /><br/><br/><br/>
                            
                  
-                           <label className="form-check-label">Medium</label>
+                           <label className="form-check-label">JavaScript</label>
                             <Checkbox  className="form-check-input" 
                                     type="radio" 
                                     name="priorityOptions" 
                                     id="priorityMedium" 
-                                    value="Medium" 
-                                    checked={this.state.todo_priority==='Medium'} 
+                                    value="JavaScript" 
+                                    checked={this.state.todo_priority==='JavaScript'} 
                                     onChange={this.onChangeTodoPriority}
                                     /><br/><br/><br/>
                             
               
-                            <label className="form-check-label">High</label>
+                            <label className="form-check-label">React</label>
                             <Checkbox  className="form-check-input" 
                                     type="radio" 
                                     name="priorityOptions" 
                                     id="priorityHigh" 
-                                    value="High" 
-                                    checked={this.state.todo_priority==='High'} 
+                                    value="React" 
+                                    checked={this.state.todo_priority==='React'} 
                                     onChange={this.onChangeTodoPriority}
                                     /><br/><br/><br/>
                            
